@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Changelog</title>
+      <link>http://localhost:1313/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelog/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;6 Jul 2023&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;101&#34;&gt;1.0.1&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Several bug fixes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;6 Jul 2023&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;100&#34;&gt;1.0.0&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First public release&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/privacy-policy/</guid>
+      <description>&lt;h1 id=&#34;zpeedometer-privacy-policy&#34;&gt;Zpeedometer Privacy Policy&lt;/h1&gt;&#xA;&lt;p&gt;This privacy policy applies to the Zpeedometer app (the “Application”) created by Alexander499 (“Service Provider”). Zpeedometer is provided as a commercial app and is intended for use &lt;em&gt;as is&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;information-collection-and-use&#34;&gt;Information Collection and Use&lt;/h2&gt;&#xA;&lt;p&gt;Zpeedometer does &lt;strong&gt;not&lt;/strong&gt; collect, transmit, or store any personal data.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;All GPS data (such as speed, distance, altitude, and heading) is processed &lt;strong&gt;only on your device&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;The app does &lt;strong&gt;not&lt;/strong&gt; send this information to any server, nor is it shared with the Service Provider or any third parties.&lt;/li&gt;&#xA;&lt;li&gt;The app does not require an internet connection and functions entirely offline.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;third-party-services&#34;&gt;Third-Party Services&lt;/h2&gt;&#xA;&lt;p&gt;The Application does &lt;strong&gt;not&lt;/strong&gt; use third-party analytics, tracking, or advertising services.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

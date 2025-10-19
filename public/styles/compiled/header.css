@@ -1,0 +1,191 @@
+header {
+  height: 56px;
+  position: sticky;
+  top: 16px;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  z-index: 10;
+  animation: headerAppear 1s ease;
+}
+@keyframes headerAppear {
+  from {
+    scale: 0.5 0.8;
+    translate: 0 -100%;
+  }
+}
+@media (width <= 400px) {
+  header {
+    height: auto;
+  }
+}
+header > div {
+  display: flex;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.2);
+  border: 1px var(--border-thin) solid;
+  border-radius: 32px;
+  padding: 12px;
+  backdrop-filter: blur(24px);
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 1px 0.5px, rgba(0, 0, 0, 0.02) 0 3px 3px 1.5px, rgba(0, 0, 0, 0.02) 0 6px 6px -3px, rgba(0, 0, 0, 0.02) 0 12px 12px -6px, rgba(0, 0, 0, 0.02) 0 24px 24px -12px;
+}
+@media (width <= 400px) {
+  header > div {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+  }
+}
+header > div > div {
+  display: flex;
+  align-items: center;
+}
+header > div > div div.divider {
+  width: 1px;
+  height: 24px;
+  background-color: var(--border-thin);
+  margin: 16px;
+}
+@media (width <= 640px) {
+  header > div > div div.divider {
+    display: none;
+  }
+}
+header > div > div a.logo {
+  height: 100%;
+  width: min-content;
+  display: flex;
+  align-items: center;
+  color: white;
+  line-height: 24px;
+  gap: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+header > div > div a.logo:hover {
+  text-decoration: underline;
+}
+header > div > div a.logo img {
+  height: 36px;
+}
+header > div > nav {
+  position: relative;
+}
+@media (width <= 640px) {
+  header > div > nav {
+    display: none;
+  }
+}
+header > div > nav div.highlight {
+  height: 100%;
+  position: absolute;
+  background-color: hsla(0, 0%, 20%, 0.7);
+  border-radius: 5px;
+  transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+header > div > nav ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+header > div > nav ul li {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 15px;
+  border: 1px transparent solid;
+  border-radius: 4px;
+  padding: 0 6px;
+  user-select: none;
+  z-index: 11;
+  transition: color, border;
+  transition-duration: 200ms;
+}
+@media (width <= 680px) {
+  header > div > nav ul li span {
+    display: none;
+  }
+}
+@media (width > 680px) and (width <= 760px) {
+  header > div > nav ul li svg {
+    display: none;
+  }
+}
+header > div > nav ul li:hover {
+  border-color: #2d2d2d;
+}
+header > div > nav ul li:has(a) {
+  padding: unset;
+}
+header > div > nav ul li.active span {
+  color: orange;
+}
+header > div > nav ul li.active svg {
+  stroke: orange;
+}
+header > div > nav ul li a {
+  all: unset;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px transparent solid;
+  padding: 0 6px;
+  transition-duration: 200ms;
+}
+header > div > nav ul li svg {
+  width: 18px;
+  stroke: white;
+}
+header > div > a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: white;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 18px;
+  padding: 6px 10px;
+}
+@media (width > 400px) {
+  header > div > a {
+    margin-left: 12px;
+  }
+}
+header > div > a:hover div.qr-code {
+  translate: -50%;
+  scale: 1;
+  transition: 500ms cubic-bezier(0.5, 1.5, 0.5, 1);
+}
+header > div > a div.qr-code {
+  height: 172px;
+  width: 160px;
+  position: absolute;
+  content: "";
+  inset: 32px auto auto 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  translate: -50% -50%;
+  scale: 0;
+  transition: 200ms;
+}
+header > div > a div.qr-code img {
+  height: 136px;
+  width: calc(100% - 24px);
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+}
+header > div > a span {
+  color: black;
+}
+header > div > a svg {
+  height: 20px;
+  stroke: black;
+  rotate: 0.5turn;
+}/*# sourceMappingURL=header.css.map */

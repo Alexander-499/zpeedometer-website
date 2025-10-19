@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  color-scheme: dark;
+  overflow: hidden auto;
+  padding: 24px;
+}
+
+a.return-to-home {
+  color: black;
+  font-weight: bold;
+}
+
+main {
+  h1, h2, h3, h4, h5, h6 { margin: 16px 0 8px; }
+  h1 { font-size: 48px; }
+  h2 { font-size: 36px; }
+  h3 { font-size: 28px; }
+  ul { margin-left: 24px; }
+  a { color: orangered; }
+
+  @media (width <= 760px) {
+    h1 { font-size: 40px; }
+    h2 { font-size: 32px; }
+    h3 { font-size: 24px; }
+  }
+}

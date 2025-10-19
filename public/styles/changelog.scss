@@ -1,0 +1,7 @@
+main.changelog {
+  padding: 24px;
+  max-width: 960px;
+  @media (width > 960px) { translate: calc(50vw - 50%); }
+
+  ul, ol { list-style-type: none; }
+}

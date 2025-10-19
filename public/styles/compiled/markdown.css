@@ -1,0 +1,44 @@
+main.markdown {
+  padding: 24px;
+  max-width: 960px;
+}
+@media (width > 960px) {
+  main.markdown {
+    translate: calc(50vw - 50%);
+  }
+}
+main.markdown h1, main.markdown h2, main.markdown h3, main.markdown h4, main.markdown h5, main.markdown h6 {
+  margin: 16px 0 8px;
+}
+main.markdown h1 {
+  font-size: 48px;
+}
+main.markdown h2 {
+  font-size: 36px;
+}
+main.markdown h3 {
+  font-size: 28px;
+}
+main.markdown ul {
+  margin-left: 24px;
+}
+main.markdown a {
+  color: orangered;
+}
+main.markdown ul, main.markdown ol {
+  list-style-type: unset;
+}
+main.markdown hr {
+  margin: 16px 0;
+}
+@media (width <= 760px) {
+  main.markdown h1 {
+    font-size: 40px;
+  }
+  main.markdown h2 {
+    font-size: 32px;
+  }
+  main.markdown h3 {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=markdown.css.map */

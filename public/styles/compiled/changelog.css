@@ -1,0 +1,12 @@
+main.changelog {
+  padding: 24px;
+  max-width: 960px;
+}
+@media (width > 960px) {
+  main.changelog {
+    translate: calc(50vw - 50%);
+  }
+}
+main.changelog ul, main.changelog ol {
+  list-style-type: none;
+}/*# sourceMappingURL=changelog.css.map */
