@@ -1,0 +1,8 @@
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.149.1"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
