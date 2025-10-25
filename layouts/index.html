@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {{ partial "head.html" . }}
   <script defer src="/index.js"></script>
+  {{ partial "head.html" . }}
 </head>
 <body>
   <svg style="display: none;" height="0"><filter id="motionBlurX"><feGaussianBlur in="SourceGraphic" stdDeviation="3 0"/></filter></svg>
@@ -105,6 +105,11 @@
             <span>Speed Warning</span>
             <p>Use a fully customizable and intuitive warning if you drive to fast which you can toggle and change with presets while driving.</p>
           </div>
+          <div>
+            <i data-lucide="flip-vertical-2"></i>
+            <span>Head-Up Display</span>
+            <p>Mirror your real-time speed and stats on your windshield for easy, distraction-free viewing.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -126,6 +131,7 @@
           <li>Hide or show interface elements</li>
           <li>Enable night glow for low-light driving</li>
           <li>Change your language</li>
+          <li>Use a HUD on your windshield</li>
           <li>And much more (really)</li>
         </ul>"
         ++

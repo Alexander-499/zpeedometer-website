@@ -66,14 +66,6 @@ header {
       position: relative;
       @media (width <= 640px) { display: none; }
 
-      div.highlight {
-        height: 100%;
-        position: absolute;
-        background-color: hsl(0 0 20% / 0.7);
-        border-radius: 5px;
-        transition: all 200ms cubic-bezier(.075, .82, .165, 1);
-      }
-
       ul {
         height: 100%;
         display: flex;
@@ -99,7 +91,6 @@ header {
           @media (width > 680px) and (width <= 760px) { svg { display: none; } }
           &:hover { border-color: #2d2d2d; }
           &:has(a) { padding: unset; }
-          &.active { span { color: orange; } svg { stroke: orange; } }
 
           a {
             all: unset;
